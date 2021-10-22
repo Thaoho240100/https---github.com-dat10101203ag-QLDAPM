@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fb527c9411fb4f58a9bcc4d9fa6d65df" Name="Diagram1">
+        <EntityTypeShape EntityType="ShopRuouModel.DatHang" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopRuouModel.DatHang_ChiTiet" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopRuouModel.Hang" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopRuouModel.KhachHang" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopRuouModel.Loai" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopRuouModel.NoiSanXuat" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopRuouModel.SanPham" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopRuouModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopRuouModel.TaiKhoan" Width="1.5" PointX="0.75" PointY="12.125" IsExpanded="true" />
+        <AssociationConnector Association="ShopRuouModel.FK__DatHang__KhachHa__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopRuouModel.FK__DatHang__TaiKhoa__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopRuouModel.FK__DatHang_C__DatHa__1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopRuouModel.FK__DatHang_C__SanPh__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopRuouModel.FK__SanPham__Hang_ID__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopRuouModel.FK__SanPham__Loai_ID__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopRuouModel.FK__SanPham__NoiSanX__239E4DCF" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
